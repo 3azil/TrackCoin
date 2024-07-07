@@ -4,7 +4,7 @@
   --white: #fff;
   --black: #111;
   --blue: rgb(136, 255, 215);
-  --grey: #888;
+  --grey: #acacac;
   --darkgrey: #1b1b1b;
   --green: #8ab47a;
   --read: #954a4a;
@@ -35,4 +35,9 @@ body {
 ::-webkit-scrollbar-thumb {
   background: var(--blue);
   border-radius: 10px;
+}
+
+a{
+  color: var(--white) !important;
+  text-decoration: none !important;
 }
