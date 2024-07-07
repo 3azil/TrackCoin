@@ -17,7 +17,7 @@ export default function AnchorTemporaryDrawer() {
             TrackCoin<span style={{ color: "var(--blue)" }}>!</span>
           </h1>
         </div>
-        <div className='drawer-box'>
+        <div className="drawer-box">
           <a href="/">
             <p className="link">Главная</p>
           </a>
@@ -26,6 +26,9 @@ export default function AnchorTemporaryDrawer() {
           </a>
           <a href="/">
             <p className="link">Наблюдение</p>
+          </a>
+          <a href="/">
+            <p className="link">DashBoard</p>
           </a>
         </div>
       </Drawer>

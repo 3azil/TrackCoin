@@ -1,5 +1,6 @@
 import React from 'react'
 import TemporaryDrawer from './drawer';
+import Button from '../Button';
 import './styles.css'
 
 function Header() {
@@ -18,9 +19,16 @@ function Header() {
         <a href="/">
           <p className="link">Наблюдение</p>
         </a>
+        <a href="/">
+          <Button
+            text={"Dashboard"}
+            outLined={true}
+            onClick={() => console.log("Button clicked")}
+          />
+        </a>
       </div>
-      <div className='mobile-drawer'>
-        <TemporaryDrawer/>
+      <div className="mobile-drawer">
+        <TemporaryDrawer />
       </div>
     </div>
   );
