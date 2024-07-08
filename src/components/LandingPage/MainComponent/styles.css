@@ -1,0 +1,79 @@
+.flex-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0.5rem 3rem;
+}
+
+.track-coin-heading,
+.real-time-heading {
+    font-size: 6rem;
+    margin: 0;
+}
+
+.track-coin-heading {
+  color: var(--white);
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: var(--white);
+}
+
+.track-coin-heading:hover {
+    color: var(--black);
+    -webkit-text-stroke-color: var(--white);
+    transition: all 0.45s;
+}
+
+.real-time-heading {
+    color: var(--blue);
+}
+
+.info-text {
+    font-size: 1rem;
+    color: var(--grey);
+}
+
+.btn-flex {
+    display: flex;
+    justify-content: flex-start;
+    gap: 1.5rem;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+
+/*@media only screen and (max-width: 800px) {}*/
+
+@media only screen and (max-width: 1250px) {
+  .track-coin-heading,
+  .real-time-heading {
+    font-size: 6rem;
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+    .flex-info{
+        flex-direction: column;
+    }
+
+    .left-component {
+        width: 100%;
+    }
+
+    .track-coin-heading,
+    .real-time-heading {
+        font-size: 4rem;
+        text-align: center;
+    }
+
+    .track-coin-heading {
+        -webkit-text-stroke-width: 1px;
+    }
+
+    .info-text {
+        text-align: center;
+    }
+
+    .btn-flex {
+        justify-content: center;
+    }
+}

@@ -3,6 +3,7 @@ import Drawer from "@mui/material/Drawer";
 import MenuRoundedIcon from "@mui/icons-material/MenuRounded";
 import { IconButton } from '@mui/material';
 
+
 export default function AnchorTemporaryDrawer() {
   const [open, setOpen] = useState(false);
 
@@ -28,7 +29,7 @@ export default function AnchorTemporaryDrawer() {
             <p className="link">Наблюдение</p>
           </a>
           <a href="/">
-            <p className="link">DashBoard</p>
+            <p className="link">Dashboard</p>
           </a>
         </div>
       </Drawer>
